@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf02117-eaa7-4ede-9b15-45af46adb439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quests/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quests/Quest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/quests/Quest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quests/Quest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/QuestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QuestTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,22 +59,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuestTest.reduceRoomsWhenExit">
-    <configuration name="KnightTest.canAttackEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdvetureLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canAttackEnemy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuestTest.canFight">
     <configuration name="QuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdvetureLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QuestTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestTest.canFight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdvetureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="METHOD_NAME" value="canFight" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuestTest.canFight" />
         <item itemvalue="JUnit.QuestTest.reduceRoomsWhenExit" />
         <item itemvalue="JUnit.QuestTest" />
         <item itemvalue="JUnit.RoomTest.hasExits" />
         <item itemvalue="JUnit.RoomTest" />
-        <item itemvalue="JUnit.KnightTest.canAttackEnemy" />
       </list>
     </recent_temporary>
   </component>

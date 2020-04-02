@@ -1,5 +1,11 @@
 package quests;
 
+import enemies.Enemy;
+
+import players.Fighter;
+
+
+
 import java.util.ArrayList;
 
 public class Quest {
@@ -31,6 +37,17 @@ public class Quest {
 
     public Room getCurrentRoom(){
         return this.currentRoom;
+    }
+    
+    public String fight(Fighter fighter, Enemy enemy){
+        while (fighter.getHealthPoints() > 0 && enemy.getHealthPoints() > 0){
+            fighter.attack(fighter.getWeapons(), enemy);
+            enemy.attack(fighter);
+        }
+        if (fighter.getHealthPoints() > 0){
+            return fighter.getName() + " is the winner";
+        }
+        return "Enemy won";
     }
 
 
