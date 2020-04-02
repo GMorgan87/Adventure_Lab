@@ -21,4 +21,8 @@ public abstract class Player {
     public void takeDamage(int damage) {
         this.healthPoints -= damage;
     }
+
+    public void addHealth(int health){
+        this.healthPoints += health;
+    }
 }

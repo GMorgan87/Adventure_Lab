@@ -5,6 +5,8 @@ import enemies.Enemy;
 import players.Player;
 
 import java.util.ArrayList;
+import java.util.Random;
+import java.util.Random;
 
 public class Fighter extends Player{
 
@@ -23,7 +25,8 @@ public class Fighter extends Player{
     }
 
     public void attack(IWeapon weapon, Enemy enemy) {
-        enemy.takeDamage(weapon.getHitPoints());
+        int attackPoints = (int) (Math.random() * weapon.getHitPoints());
+        enemy.takeDamage(attackPoints);
     }
 
 }

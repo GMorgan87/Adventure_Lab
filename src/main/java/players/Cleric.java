@@ -14,6 +14,6 @@ public class Cleric extends Player{
     }
 
     public void heal(Player player) {
-
+        player.addHealth(healingTool.getHealPoints());
     }
 }

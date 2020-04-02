@@ -25,6 +25,7 @@ public class Enemy {
     }
 
     public void attack(Player player){
-        player.takeDamage(hitPoints);
+        int attackPoints = (int) (Math.random() * this.hitPoints);
+        player.takeDamage(attackPoints);
     }
 }

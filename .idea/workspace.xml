@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf02117-eaa7-4ede-9b15-45af46adb439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Fireball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/FlameWave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/LightningBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IDefend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IDefend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IHeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/HealingTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/HealingTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Cleric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/players/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IDefend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IWeapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Orc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Troll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviours/IHeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviours/IHeal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/HealingTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/HealingTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Cleric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Fighter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MageTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrollTest">
+  <component name="RunManager" selected="JUnit.KnightTest.canAttackEnemy">
     <configuration name="All in FantasyAdvetureLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdvetureLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -139,9 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnightTest.canAttackEnemy" />
         <item itemvalue="JUnit.TrollTest" />
         <item itemvalue="JUnit.WarlockTest.canDefend" />
-        <item itemvalue="JUnit.KnightTest.canAttackEnemy" />
         <item itemvalue="JUnit.All in FantasyAdvetureLab" />
         <item itemvalue="JUnit.KnightTest" />
       </list>
