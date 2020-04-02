@@ -17,4 +17,8 @@ public abstract class Player {
     public int getHealthPoints() {
         return healthPoints;
     }
+
+    public void takeDamage(int damage) {
+        this.healthPoints -= damage;
+    }
 }

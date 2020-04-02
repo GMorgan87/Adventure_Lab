@@ -1,5 +1,7 @@
 package behaviours;
 
 public interface IWeapon {
-    public void Attack();
+
+    int getHitPoints();
+
 }

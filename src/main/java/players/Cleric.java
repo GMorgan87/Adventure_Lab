@@ -4,7 +4,7 @@ import behaviours.IHeal;
 import items.HealingTool;
 import players.Player;
 
-public class Cleric extends Player implements IHeal {
+public class Cleric extends Player{
 
     private HealingTool healingTool;
 
@@ -13,7 +13,7 @@ public class Cleric extends Player implements IHeal {
         this.healingTool = healingTool;
     }
 
-    public void heal() {
+    public void heal(Player player) {
 
     }
 }

@@ -1,11 +1,15 @@
 package enemies;
 
+import players.Player;
+
 public class Enemy {
 
     private int healthPoints;
+    private int hitPoints;
 
-    public Enemy(int healthPoints)  {
+    public Enemy(int healthPoints, int hitPoints)  {
         this.healthPoints = healthPoints;
+        this.hitPoints = hitPoints;
     }
 
     public void takeDamage(int damage){
@@ -14,5 +18,13 @@ public class Enemy {
 
     public int getHealthPoints() {
         return healthPoints;
+    }
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
+    public void attack(Player player){
+        player.takeDamage(hitPoints);
     }
 }
